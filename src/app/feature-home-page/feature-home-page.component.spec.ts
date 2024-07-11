@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FeatureHomeScreenComponent } from './feature-home-screen.component';
+import { FeatureHomePageComponent } from './feature-home-page.component';
 
-describe('FeatureHomeScreenComponent', () => {
-  let component: FeatureHomeScreenComponent;
-  let fixture: ComponentFixture<FeatureHomeScreenComponent>;
+describe('FeatureHomePageComponent', () => {
+  let component: FeatureHomePageComponent;
+  let fixture: ComponentFixture<FeatureHomePageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FeatureHomeScreenComponent ]
+      declarations: [ FeatureHomePageComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FeatureHomeScreenComponent);
+    fixture = TestBed.createComponent(FeatureHomePageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

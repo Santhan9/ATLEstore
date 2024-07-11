@@ -1,22 +1,18 @@
+// app.module.ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FeatureHomeScreenComponent } from './feature-home-screen/feature-home-screen.component';
 import { HeaderComponent } from './header/header.component';
-import { LoginpageComponent } from './loginpage/loginpage.component';
+import { FeatureHomePageComponent } from './feature-home-page/feature-home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginpageComponent,
     HeaderComponent,
-    FeatureHomeScreenComponent
+    FeatureHomePageComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
