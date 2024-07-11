@@ -3,13 +3,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { FeatureHomePageComponent } from './feature-home-page/feature-home-page.component';
+import { FeatureHomeScreenComponent } from './feature-home-screen/feature-home-screen.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FeatureHomePageComponent
+    FeatureHomeScreenComponent,
+  
+
   ],
   imports: [
     BrowserModule
