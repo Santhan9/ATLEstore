@@ -1,0 +1,15 @@
+<div class="main-conatiner">
+    <div class="container" *ngFor="let product of products">
+        <span class="body">
+            <h2>{{ product.name }}</h2>
+            <span class="image-conatiner">
+                <img [src]="product.imageUrl" class="image" alt="{{ product.name }}"></span>
+                <span class="product-name">{{ product.name }}</span>
+                <span class="price">Price ${{ product.price }}</span>
+                <button class="cart">Add to cart</button>
+        </span>
+    </div>
+    </div>
+    
+   
+    

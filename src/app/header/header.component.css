@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.button-container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 40px;
+}
+.products-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    gap: 8px;
+    border: 1px solid white;
+    border-radius: 16px;
+    cursor: pointer;
+}

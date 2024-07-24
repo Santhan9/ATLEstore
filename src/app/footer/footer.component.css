@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
