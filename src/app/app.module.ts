@@ -2,11 +2,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { FeatureloginComponent } from './featureloginpage/featureloginpage.component';
+import { FeatureloginpageComponent } from './featureloginpage/featureloginpage.component';
 @NgModule({
   declarations:[
     AppComponent,
-    FeatureloginComponent,
+    FeatureloginpageComponent,
   ],
   imports: [
     BrowserModule,

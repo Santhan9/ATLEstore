@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  
-  selector: 'app-featurelogin',
+  selector: 'app-featureloginpage',
   templateUrl: './featureloginpage.component.html',
   styleUrls: ['./featureloginpage.component.css']
 })
-export class FeatureloginComponent implements OnInit {
+export class FeatureloginpageComponent implements OnInit {
 
   constructor() { }
 
