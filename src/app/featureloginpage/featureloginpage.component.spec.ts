@@ -1,14 +1,14 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FeatureloginComponent } from './featureloginpage.component';
+import { FeatureloginComponent } from './featureloginpage.component'
 
-describe('FeatureloginComponent', () => {
+describe('LoginComponent', () => {
   let component: FeatureloginComponent;
   let fixture: ComponentFixture<FeatureloginComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FeatureloginComponent ]
+      declarations: [ FeatureloginComponent]
     })
     .compileComponents();
   });
