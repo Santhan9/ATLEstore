@@ -2,22 +2,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FeatureHomeScreenComponent } from './feature-home-screen/feature-home-screen.component';
-
-
+import { FeatureloginpageComponent } from './featureloginpage/featureloginpage.component';
 @NgModule({
-  declarations: [
+  declarations:[
     AppComponent,
-    HeaderComponent,
-    FeatureHomeScreenComponent,
-  
-
+    FeatureloginpageComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
